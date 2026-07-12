@@ -345,8 +345,7 @@
       "material": null,
       "parentId": "a8f21946-b2fe-4589-9302-6232ec649775",
       "components": {},
-      "name": "Card",
-      "disabled": true
+      "name": "Card"
     },
     "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81": {
       "id": "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81",
@@ -2304,7 +2303,7 @@
       "position": [
         -0.4429848330826023,
         0,
-        0.19964973405344055
+        0.27500602904160343
       ],
       "rotation": [
         0,
