@@ -1,5 +1,5 @@
 # Studio: Image Targets
-
+ 
 This project demonstrates how to use Image Targets to anchor virtual content to images in the real world.
 There are multiple spaces in this project that showcase different types of image targets.
 
