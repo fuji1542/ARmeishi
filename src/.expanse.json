@@ -345,7 +345,8 @@
       "material": null,
       "parentId": "a8f21946-b2fe-4589-9302-6232ec649775",
       "components": {},
-      "name": "Card"
+      "name": "Card",
+      "disabled": true
     },
     "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81": {
       "id": "fa9f1e85-91a8-4d7c-88e9-f63f0a3f0e81",
@@ -373,7 +374,8 @@
       "imageTarget": {
         "name": "23_Element_Water"
       },
-      "order": 3.681079881923593
+      "order": 3.681079881923593,
+      "disabled": true
     },
     "d344585b-22b4-49ab-96b8-6d07012a39dd": {
       "id": "d344585b-22b4-49ab-96b8-6d07012a39dd",
@@ -521,7 +523,8 @@
       "imageTarget": {
         "name": "25_Element_Earth"
       },
-      "order": 5.546400582424154
+      "order": 5.546400582424154,
+      "disabled": true
     },
     "ee9c57e2-266c-4ada-b2c2-d75518b49425": {
       "id": "ee9c57e2-266c-4ada-b2c2-d75518b49425",
@@ -669,7 +672,8 @@
       "imageTarget": {
         "name": "20_Element_Fire"
       },
-      "order": 6.768719824337127
+      "order": 6.768719824337127,
+      "disabled": true
     },
     "608c9340-f8f8-4b2b-94d6-d0e9d818411e": {
       "id": "608c9340-f8f8-4b2b-94d6-d0e9d818411e",
@@ -2241,6 +2245,92 @@
       "order": 17.028744183474238,
       "parentId": "377b65a9-0810-4e9a-8efd-261b32b1bd8b",
       "hidden": true
+    },
+    "d6d78969-aac3-46eb-bec1-33d8fbd773f1": {
+      "id": "d6d78969-aac3-46eb-bec1-33d8fbd773f1",
+      "position": [
+        -0.501092875267293,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "fuji1542",
+      "imageTarget": {
+        "name": "102097783_p0"
+      },
+      "order": 8.271910174180098
+    },
+    "fa9c04ac-22e7-4d86-93d3-dfef7074c5d6": {
+      "id": "fa9c04ac-22e7-4d86-93d3-dfef7074c5d6",
+      "position": [
+        0.501092875267293,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d6d78969-aac3-46eb-bec1-33d8fbd773f1",
+      "components": {},
+      "name": "fuji1542",
+      "order": 9.448602918016222
+    },
+    "e000d1d4-df2e-4523-8fee-cf65c1094f81": {
+      "id": "e000d1d4-df2e-4523-8fee-cf65c1094f81",
+      "position": [
+        -0.4429848330826023,
+        0,
+        0.19964973405344055
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.20000000000000004,
+        0.20000000000000004,
+        0.20000000000000004
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 1,
+        "width": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "fa9c04ac-22e7-4d86-93d3-dfef7074c5d6",
+      "components": {},
+      "name": "ボックス",
+      "order": 9.86924484371017
     }
   },
   "spaces": {
