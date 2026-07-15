@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/ar_luminance.jpg",
+  "metadata": null,
+  "name": "ar",
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 0,
+    "width": 768,
+    "height": 1024,
+    "isRotated": false,
+    "originalWidth": 768,
+    "originalHeight": 1024
+  },
+  "resources": {
+    "originalImage": "ar_original.jpg",
+    "croppedImage": "ar_cropped.jpg",
+    "thumbnailImage": "ar_thumbnail.jpg",
+    "luminanceImage": "ar_luminance.jpg"
+  },
+  "created": 1783934497342,
+  "updated": 1783938736202
+}

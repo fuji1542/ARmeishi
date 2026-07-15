@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 25,
+    "left": 0,
+    "width": 750,
+    "height": 1000,
+    "isRotated": false,
+    "originalWidth": 750,
+    "originalHeight": 1050
+  },
+  "imagePath": "image-targets/25_Element_Earth_original_luminance.png",
+  "metadata": null,
+  "name": "25_Element_Earth_original",
+  "resources": {
+    "originalImage": "25_Element_Earth_original_original.png",
+    "croppedImage": "25_Element_Earth_original_cropped.png",
+    "thumbnailImage": "25_Element_Earth_original_thumbnail.png",
+    "luminanceImage": "25_Element_Earth_original_luminance.png"
+  },
+  "created": 1783939757570,
+  "updated": 1783939757570
+}

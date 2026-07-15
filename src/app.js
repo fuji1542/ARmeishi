@@ -8,6 +8,9 @@ const onxrloaded = () => {
       require('../image-targets/bmo-bites.json'),
       require('../image-targets/toggle-slam.json'),
       require('../image-targets/waves.json'),
+      require('../image-targets/ar.json'),
+      require('../image-targets/102097783_p0.json'),
+      require('../image-targets/card_t.json'),
     ],
   })
   XR8.addCameraPipelineModule(LandingPage.pipelineModule())
