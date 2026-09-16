@@ -1669,40 +1669,12 @@
       "order": 5.388855293050209,
       "parentId": "28878a86-3de0-4d09-a97d-e2aca00f534b"
     },
-    "665746ce-4eb5-44e6-968e-3991f74400ee": {
-      "id": "665746ce-4eb5-44e6-968e-3991f74400ee",
-      "position": [
-        0.1754507825027023,
-        4.999999999999999,
-        -0.8697325344441533
-      ],
-      "rotation": [
-        0.5720345023290863,
-        -0.015600412604716707,
-        -0.02235678071127897,
-        0.8197763900161466
-      ],
-      "scale": [
-        1,
-        1.0000000000000002,
-        1.0000000000000002
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "47e044da-567d-4436-bd88-10c47a90c760",
-      "components": {},
-      "light": {
-        "type": "directional"
-      },
-      "name": "指向性ライト",
-      "order": 0.48344124276845135
-    },
     "3a78348b-1561-4536-a4c9-412e4040c210": {
       "id": "3a78348b-1561-4536-a4c9-412e4040c210",
       "position": [
-        10,
-        5,
-        5
+        0.44491962048761824,
+        0.20385410720026664,
+        -0.1970613151924816
       ],
       "rotation": [
         0,
@@ -1723,7 +1695,8 @@
         "type": "ambient"
       },
       "name": "アンビエントライト",
-      "order": 1.5811489217812793
+      "order": 1.5811489217812793,
+      "disabled": true
     },
     "7d0e90d2-db9e-4e04-a187-90ca9c86af55": {
       "id": "7d0e90d2-db9e-4e04-a187-90ca9c86af55",
@@ -1790,68 +1763,219 @@
       "imageTarget": {
         "name": "card_t"
       },
-      "order": 3.748258401451161,
-      "hidden": false
+      "order": 3.748258401451161
     },
-    "731de157-4451-4d27-be2c-d2dcd0637728": {
-      "id": "731de157-4451-4d27-be2c-d2dcd0637728",
+    "67ef8107-c016-4b93-8ec1-9f82a9de6099": {
+      "id": "67ef8107-c016-4b93-8ec1-9f82a9de6099",
       "position": [
-        0,
-        -6.439917874004874e-17,
-        0.07290344453183284
+        -1.110223024625156e-16,
+        -0.949526293216543,
+        0.6581022699333556
       ],
       "rotation": [
-        0.7547095802227727,
-        -7.273746313355442e-18,
-        -1.4028361290206548e-17,
-        0.6560590289905072
+        0.281129994550809,
+        -0.5934979525138915,
+        -0.16073948238607147,
+        0.7368099655460278
       ],
       "scale": [
-        0.04,
-        0.04,
-        0.04
+        1,
+        0.9999999999999998,
+        1
       ],
       "geometry": null,
       "material": null,
       "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "components": {},
+      "light": {
+        "type": "directional",
+        "intensity": 1,
+        "shadowRadius": 2,
+        "shadowCamera": [
+          -3,
+          3,
+          3,
+          -3,
+          0.5,
+          300
+        ],
+        "shadowBias": -0.0020000000000000018
+      },
+      "name": "指向性ライト",
+      "order": -2.4913383915160443
+    },
+    "54157aba-d1fd-4cc6-878a-582debdd0160": {
+      "id": "54157aba-d1fd-4cc6-878a-582debdd0160",
+      "position": [
+        0,
+        -0.08763059589067786,
+        1.9457901043890646e-17
+      ],
+      "rotation": [
+        -2.6606238795218357e-8,
+        0,
+        0,
+        0.9999999999999996
+      ],
+      "scale": [
+        1.9999999999999991,
+        2.0000001064249626,
+        2.0000001064249635
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "shadow",
+        "color": "#000000",
+        "opacity": 0.4
+      },
+      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "components": {},
+      "name": "飛行機",
+      "order": -0.0037717933245555724,
+      "shadow": {
+        "receiveShadow": true,
+        "castShadow": true
+      }
+    },
+    "176d1ae2-2f41-43b6-8044-a9bd105d4012": {
+      "id": "176d1ae2-2f41-43b6-8044-a9bd105d4012",
+      "position": [
+        -0.04996176244485689,
+        0.02948425596313957,
+        0.14603038564529658
+      ],
+      "rotation": [
+        -0.026688369976753865,
+        0.995205848515823,
+        -0.0021912428964231336,
+        -0.09406512872713965
+      ],
+      "scale": [
+        0.4000000000000002,
+        0.39999999999999997,
+        0.3999999999999991
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7788e007-3554-47d9-ba08-6ca125cdab3a",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Meishi_avataer_sit.glb"
+        },
+        "animationClip": "sit",
+        "loop": true
+      },
+      "name": "Meishi_avataer_sit.glb",
+      "order": 5.108352671722834
+    },
+    "42469c73-dffb-47ff-8a9b-a381c6774f66": {
+      "id": "42469c73-dffb-47ff-8a9b-a381c6774f66",
+      "position": [
+        0,
+        -0.08763059589067786,
+        1.9457901043890646e-17
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.9999999999999996,
+        1,
+        0.9999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "components": {},
+      "name": "Cube",
+      "order": -3.9754839943988074,
+      "hidden": false
+    },
+    "7a02ab80-45eb-4988-a63f-e14a385636ea": {
+      "id": "7a02ab80-45eb-4988-a63f-e14a385636ea",
+      "position": [
+        -0.0015344323700290374,
+        0,
+        -1.3877787807814457e-17
+      ],
+      "rotation": [
+        5.551115123125782e-17,
+        0.7071067811865475,
+        0.7071067811865476,
+        -1.6653345369377348e-16
+      ],
+      "scale": [
+        0.2999999999999999,
+        0.29999999999999993,
+        0.29999999999999993
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "42469c73-dffb-47ff-8a9b-a381c6774f66",
       "components": {
-        "5d744ef4-3306-488b-9397-3bfb70fb9cf6": {
-          "id": "5d744ef4-3306-488b-9397-3bfb70fb9cf6",
-          "name": "omikuji-dice-all-in-one"
+        "608fcb87-4edc-44e7-9fef-433202bd1ddd": {
+          "id": "608fcb87-4edc-44e7-9fef-433202bd1ddd",
+          "name": "CubeAnimation",
+          "parameters": {
+            "target1": {
+              "type": "entity",
+              "id": "7788e007-3554-47d9-ba08-6ca125cdab3a"
+            },
+            "target2": {
+              "type": "entity",
+              "id": "de725daa-329f-49e9-8020-b2342d70dc35"
+            },
+            "target3": {
+              "type": "entity",
+              "id": "28dac361-eb46-4b7f-80f6-89db26d465d0"
+            },
+            "target4": {
+              "type": "entity",
+              "id": "53227eb7-447d-4e10-9241-2e5d10b8bc4e"
+            }
+          }
+        },
+        "940cf147-060e-47bd-a300-2410c8605d53": {
+          "id": "940cf147-060e-47bd-a300-2410c8605d53",
+          "name": "Button"
         }
       },
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/playing-cards/omikuji.glb"
+          "asset": "assets/Meishi_cube.glb"
         },
         "animationClip": "",
-        "loop": true
+        "loop": false,
+        "paused": false
       },
-      "name": "omikuji.glb",
-      "order": 3.8455326914010586,
+      "name": "Meishi_cube.glb",
+      "order": 1.2736401168664258,
       "collider": {
         "geometry": {
-          "type": "auto"
+          "type": "box",
+          "depth": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
-        "mass": 0.5,
-        "type": "dynamic",
-        "gravityFactor": 1,
-        "friction": 0.3,
-        "restitution": 0
-      },
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
-      "disabled": true
+        "offsetY": 1
+      }
     },
-    "b66859e1-22e2-4bf3-89ca-c14df3863994": {
-      "id": "b66859e1-22e2-4bf3-89ca-c14df3863994",
+    "7788e007-3554-47d9-ba08-6ca125cdab3a": {
+      "id": "7788e007-3554-47d9-ba08-6ca125cdab3a",
       "position": [
         0,
-        -1.110223024625156e-16,
-        -0.5
+        -0.08763059589067786,
+        -1.319902019684619e-16
       ],
       "rotation": [
         0.7071067811865475,
@@ -1860,9 +1984,63 @@
         0.7071067811865476
       ],
       "scale": [
-        4.999999999999998,
+        0.9999999999999996,
         1,
-        4.999999999999998
+        0.9999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "components": {},
+      "name": "Avatar",
+      "order": -2.9586347438548746,
+      "hidden": true
+    },
+    "2dfc28b3-c504-4d5c-b17f-fe69f1a74405": {
+      "id": "2dfc28b3-c504-4d5c-b17f-fe69f1a74405",
+      "position": [
+        0,
+        -0.14318141846205587,
+        0.27559492123032886
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.9999999999999996,
+        1,
+        0.9999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "components": {},
+      "light": {
+        "type": "point"
+      },
+      "name": "ポイントライト",
+      "order": 1.2423006346547465
+    },
+    "de725daa-329f-49e9-8020-b2342d70dc35": {
+      "id": "de725daa-329f-49e9-8020-b2342d70dc35",
+      "position": [
+        0,
+        -0.0013107318161930948,
+        -0.5931088191244451
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.55,
+        0.08027249231674677,
+        0.55
       ],
       "geometry": {
         "type": "box",
@@ -1871,12 +2049,26 @@
         "width": 1
       },
       "material": {
-        "type": "hider"
+        "type": "basic",
+        "color": "#FFFFFF",
+        "opacity": 0
       },
-      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
-      "components": {},
+      "parentId": "673be5b1-b048-4323-9c81-6fe6be7c42ab",
+      "components": {
+        "a4e2f2a9-1053-479f-829a-c6e334af6477": {
+          "id": "a4e2f2a9-1053-479f-829a-c6e334af6477",
+          "name": "GoToURL",
+          "parameters": {
+            "url": "https://www.twitch.tv/fuji1542"
+          }
+        },
+        "9bdd1750-be6d-44f5-ba38-8761281e9ae2": {
+          "id": "9bdd1750-be6d-44f5-ba38-8761281e9ae2",
+          "name": "Button"
+        }
+      },
       "name": "ボックス",
-      "order": 5.66035918423952,
+      "order": 4.750479115427249,
       "collider": {
         "geometry": {
           "type": "box",
@@ -1885,97 +2077,69 @@
           "width": 1
         }
       },
-      "disabled": true
+      "hidden": true
     },
-    "e47685ed-8cf2-4991-8075-7b88ad888130": {
-      "id": "e47685ed-8cf2-4991-8075-7b88ad888130",
+    "28dac361-eb46-4b7f-80f6-89db26d465d0": {
+      "id": "28dac361-eb46-4b7f-80f6-89db26d465d0",
       "position": [
         0,
-        -1.0858482993109065e-18,
-        -0.004890225996157488
+        -0.0013107318161930948,
+        0.5965629252369965
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
-        0.21,
-        0.20999999999999996,
-        0.20999999999999996
+        0.55,
+        0.08027249231674677,
+        0.55
       ],
-      "geometry": null,
-      "material": null,
-      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/omikujistage.glb"
-        },
-        "animationClip": "stageomikujiアクション",
-        "loop": false,
-        "paused": false
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 1,
+        "width": 1
       },
-      "name": "omikujistage.glb",
-      "order": 10.0704074479368
-    },
-    "de731686-3f9f-4b14-9ec7-bf9f16f2d577": {
-      "id": "de731686-3f9f-4b14-9ec7-bf9f16f2d577",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        -5.551115123125783e-17,
-        0.7071067811865475,
-        0.7071067811865475,
-        1.6653345369377348e-16
-      ],
-      "scale": [
-        0.21,
-        0.21,
-        0.21
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "opacity": 0
+      },
       "components": {
-        "dd11bfb7-11d6-472d-821f-d633ebb9fab9": {
-          "id": "dd11bfb7-11d6-472d-821f-d633ebb9fab9",
-          "name": "door-play-on-marker-found",
+        "a3c41ac0-20fc-4b2a-b4fd-af5940ed5568": {
+          "id": "a3c41ac0-20fc-4b2a-b4fd-af5940ed5568",
+          "name": "GoToURL",
           "parameters": {
-            "door": {
-              "type": "entity",
-              "id": "de731686-3f9f-4b14-9ec7-bf9f16f2d577"
-            },
-            "nextModel": {
-              "type": "entity",
-              "id": "6e14438c-8da5-45cf-848d-1e7a82d0f3ee"
-            }
+            "url": "https://x.com/VRCfuji1542"
           }
+        },
+        "fc01cba5-fb22-4376-8e79-2f656863996c": {
+          "id": "fc01cba5-fb22-4376-8e79-2f656863996c",
+          "name": "Button"
         }
       },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/door.glb"
-        },
-        "animationClip": "stageomikujiアクション.002",
-        "loop": false,
-        "paused": true
+      "name": "ボックス (1)",
+      "order": 6.374634392665326,
+      "parentId": "fd67ffd2-35f9-4bb1-b14f-34b8c092058e",
+      "collider": {
+        "geometry": {
+          "type": "box",
+          "depth": 1,
+          "height": 1,
+          "width": 1
+        }
       },
-      "name": "door.glb",
-      "order": 0.9969773893539187
+      "hidden": true
     },
-    "f4671c7d-e591-497e-b8c4-52d120ce0424": {
-      "id": "f4671c7d-e591-497e-b8c4-52d120ce0424",
+    "673be5b1-b048-4323-9c81-6fe6be7c42ab": {
+      "id": "673be5b1-b048-4323-9c81-6fe6be7c42ab",
       "position": [
         0,
-        0,
-        0
+        -0.08763059589067786,
+        1.9457901043890646e-17
       ],
       "rotation": [
         0.7071067811865475,
@@ -1984,33 +2148,24 @@
         0.7071067811865476
       ],
       "scale": [
-        0.21,
-        0.21,
-        0.21
+        0.9999999999999996,
+        1,
+        0.9999999999999996
       ],
       "geometry": null,
-      "material": {
-        "type": "hider"
-      },
+      "material": null,
       "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
       "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/playing-cards/stage.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "stage.glb",
-      "order": 12.714426233681682
+      "name": "Button1",
+      "order": -5.098067978168481,
+      "hidden": false
     },
-    "6e14438c-8da5-45cf-848d-1e7a82d0f3ee": {
-      "id": "6e14438c-8da5-45cf-848d-1e7a82d0f3ee",
+    "fd67ffd2-35f9-4bb1-b14f-34b8c092058e": {
+      "id": "fd67ffd2-35f9-4bb1-b14f-34b8c092058e",
       "position": [
         0,
-        0,
-        0
+        -0.08763059589067786,
+        1.9457901043890646e-17
       ],
       "rotation": [
         0.7071067811865475,
@@ -2019,9 +2174,35 @@
         0.7071067811865476
       ],
       "scale": [
-        0.21,
-        0.20999999999999996,
-        0.20999999999999996
+        0.9999999999999996,
+        1,
+        0.9999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "db76e06d-ba0f-4bc9-8088-63be0752ab83",
+      "components": {},
+      "name": "Button2",
+      "order": -5.057206650245257,
+      "hidden": false
+    },
+    "53227eb7-447d-4e10-9241-2e5d10b8bc4e": {
+      "id": "53227eb7-447d-4e10-9241-2e5d10b8bc4e",
+      "position": [
+        0.587596122108153,
+        -0.08763059589067786,
+        1.9457901043890646e-17
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.09999999999999996,
+        0.1,
+        0.09999999999999996
       ],
       "geometry": null,
       "material": null,
@@ -2032,13 +2213,13 @@
           "type": "asset",
           "asset": "assets/playing-cards/Poster.glb"
         },
-        "animationClip": "Posterアクション",
+        "animationClip": "",
         "loop": false,
-        "paused": true,
-        "timeScale": 2
+        "paused": false
       },
       "name": "Poster.glb",
-      "order": 13.83513462297547
+      "order": -6.3476751226637,
+      "hidden": true
     }
   },
   "spaces": {
